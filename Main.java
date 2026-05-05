@@ -7,9 +7,6 @@ public class Main {
         vehiculos.registrarVehiculo();
  
         // ZONA DE INTEGRACION DE MODULOS
-        Inventario inv = new Inventario();
-        inv.comprobarStock();
- 
         GestorReparaciones reparaciones = new GestorReparaciones();
         reparaciones.procesarReparacion();
  
