@@ -7,8 +7,8 @@ public class Main {
         vehiculos.registrarVehiculo();
  
         // ZONA DE INTEGRACION DE MODULOS
-        // TODO: Alumno C debe inicializar aquí el inventario
-        // TODO: Alumno B debe registrar una reparación de prueba
+        Inventario inv = new Inventario();
+        inv.comprobarStock();
  
         System.out.println("Sistema detenido.");
     }
