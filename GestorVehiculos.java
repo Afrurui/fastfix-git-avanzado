@@ -1,6 +1,5 @@
 public class GestorVehiculos {
     public void registrarVehiculo() {
-        // TODO: Implementar lógica del Alumno A
-        System.out.println("Función de vehículos no implementada aún");
+        System.out.println("Vehículo registrado: Seat Ibiza - Matrícula 1234ABC - Cliente: Alvaro Frutos");
     }
 }
