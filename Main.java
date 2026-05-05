@@ -10,6 +10,9 @@ public class Main {
         Inventario inv = new Inventario();
         inv.comprobarStock();
  
+        GestorReparaciones reparaciones = new GestorReparaciones();
+        reparaciones.procesarReparacion();
+ 
         System.out.println("Sistema detenido.");
     }
 }
